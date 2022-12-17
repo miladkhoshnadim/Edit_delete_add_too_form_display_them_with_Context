@@ -1,0 +1,114 @@
+.Mainbady {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.MainPage {
+  margin: 50px auto;
+  background-color: rgb(217, 238, 238);
+  width: 80%;
+  padding: 20px;
+  border: 1px solid rgb(160, 125, 125);
+  border-radius: 15px;
+}
+
+.HeadSubject {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.TwoSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.SectionLeft {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.SectionRight {
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+}
+
+.subjectSectionLeft {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: brown;
+}
+
+.Labels {
+  font-size: 2rem;
+}
+
+.inputs {
+  height: 2rem;
+  width: 95%;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.divButton {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottons {
+  padding: 0.2rem 0.6rem;
+  background-color: rgb(181, 189, 189);
+  font-size: 1.5rem;
+  color: azure;
+}
+
+.bottons:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+  color: rgb(102, 101, 101);
+}
+
+.DivHeader {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.DivRowes {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+
+.buttonsItem {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: rgb(198, 197, 199);
+}
+
+.buttonsItem:hover {
+  background-color: aqua;
+  color: rgb(243, 41, 41);
+}
+
+.SectionInputs {
+  border: 2px solid rgb(107, 104, 104);
+}
+
+.ErrorInput {
+  color: rgb(248, 119, 119);
+  font-weight: bold;
+}
